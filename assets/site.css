@@ -1,0 +1,183 @@
+css
+:root {
+  --primary-color: #18816a;
+  --secondary-color: #496aee;
+  --background-color: #4496ee;
+  --text-color: #121716;
+  --font-style: editorial;
+  --mood: premium editorial design, bold European innovation, human-centred, contemporary, spacious, high contrast and distinctive;
+}
+
+body {
+  font-family: 'Editorial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.hero {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: var(--background-color);
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: var(--background-color);
+}
+
+.hero .cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .cta:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.programme-proposition {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.programme-proposition h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.programme-proposition p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.section .card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.section .card:hover {
+  background-color: #f0f0f0;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer a {
+  color: var(--background-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .cta {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+  }
+
+  .section p {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+}
