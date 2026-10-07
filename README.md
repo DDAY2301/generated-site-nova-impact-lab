@@ -1,1 +1,3 @@
-# generated-site-nova-impact-lab
+# Test site removed
+
+This generated test website was removed during repository cleanup.
